@@ -1,0 +1,158 @@
+
+<!-- ===================================== 
+	MENUS
+===================================== -->
+<h3 id="menus">{{title}}</h3>
+<ul class="tabs">
+<li><a href="#menu-example">Example</a></li>
+<li><a href="#menu-horizontal">Horizontal</a></li>
+<li><a href="#menu-vertical">Vertical</a></li>
+<li><a href="#menu-vertical-right">Vertical.right</a></li>
+</ul>
+
+	<div id="menu-example" class="tab-content">
+	<p>These Menus are optionallly responsive when using a responsive grid: <code>.grid</code> or <code>.grid.flex</code></p>
+	<!-- MENU VERTICAL -->
+	<div class="col_3">
+	<h4>Vertical Left</h4>
+	<ul class="menu vertical">
+	<li class="current"><a href="">Item 1</a></li>
+	<li><a href="">Item 2</a></li>
+	<li><a href="">Item 3</a>
+		<ul>
+		<li><a href="">Sub Item that is super long and we don't want it to break the menu</a></li>
+		<li><a href="">Sub Item</a>
+			<ul>
+			<li><a href="">Sub Item</a></li>
+			<li><a href="">Sub Item</a></li>
+			<li><a href="">Sub Item</a></li>
+			<li><a href="">Sub Item</a></li>
+			</ul>
+		</li>
+		<li><a href="">Sub Item</a></li>
+		</ul>
+	</li>
+	<li><a href="">Item 4</a></li>
+	</ul>
+	</div>
+	
+	<!-- MENU HORIZONTAL -->
+	<div class="col_6">
+	<h4>Horizontal</h4>
+	<ul class="menu">
+	<li class="current"><a href="">Item 1</a></li>
+	<li><a href="">Item 2</a></li>
+	<li><a href=""><i class="icon-inbox"></i> Item 3</a>
+		<ul>
+		<li><a href=""><i class="icon-cog"></i> Sub Item</a></li>
+		<li><a href=""><i class="icon-envelope-alt"></i> Sub Item</a>
+			<ul>
+			<li><a href=""><i class="icon-wrench"></i> Sub Item</a></li>
+			<li><a href=""><i class="icon-camera-retro"></i> Sub Item</a></li>
+			<li><a href=""><i class="icon-coffee"></i> Sub Item</a></li>
+			<li><a href=""><i class="icon-twitter"></i> Sub Item</a></li>
+			</ul>
+		</li>
+		<li class="divider"><a href=""><i class="icon-trash"></i> li.divider</a></li>
+		</ul>
+	</li>
+	<li><a href="">Item 4</a></li>
+	</ul>
+	</div>
+	
+	<!-- MENU VERTICAL RIGHT -->
+	<div class="col_3">
+	<h4>Vertical Right</h4>
+	<ul class="menu vertical right">
+	<li><a href="">Item 1</a></li>
+	<li><a href="">Item 2</a></li>
+	<li><a href="">Item 3</a>
+		<ul>
+		<li><a href="">Sub Item</a></li>
+		<li class="current"><a href="">Sub Item</a>
+			<ul>
+			<li><a href="">Sub Item</a></li>
+			<li><a href="">Sub Item</a></li>
+			<li><a href="">Sub Item</a></li>
+			<li><a href="">Sub Item</a></li>
+			</ul>
+		</li>
+		<li><a href="">Sub Item</a></li>
+		</ul>
+	</li>
+	<li><a href="">Item 4</a></li>
+	</ul>
+	</div>
+	</div>
+	
+	<div id="menu-vertical" class="tab-content">
+<pre>
+&lt;!-- Menu Vertical Left --&gt;
+&lt;ul class=&quot;menu vertical&quot;&gt;
+&lt;li class=&quot;current&quot;&gt;&lt;a href=&quot;&quot;&gt;Item 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 3&lt;/a&gt;
+	&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;&quot;&gt;Sub Item that is super long and we don't want it to break the menu&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;&quot;&gt;Sub Item&lt;/a&gt;
+		&lt;ul&gt;
+		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Sub Item&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Sub Item&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Sub Item&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Sub Item&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;&quot;&gt;Sub Item&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</pre>
+	</div>
+	
+	<div id="menu-horizontal" class="tab-content">
+<pre>
+&lt;!-- Menu Horizontal --&gt;
+&lt;ul class=&quot;menu&quot;&gt;
+&lt;li class=&quot;current&quot;&gt;&lt;a href=&quot;&quot;&gt;Item 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;i class=&quot;icon-inbox&quot;&gt;&lt;/i&gt; Item 3&lt;/a&gt;
+	&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;i class=&quot;icon-cog&quot;&gt;&lt;/i&gt; Sub Item&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;i class=&quot;icon-envelope-alt&quot;&gt;&lt;/i&gt; Sub Item&lt;/a&gt;
+		&lt;ul&gt;
+		&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;i class=&quot;icon-wrench&quot;&gt;&lt;/i&gt; Sub Item&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;i class=&quot;icon-camera-retro&quot;&gt;&lt;/i&gt; Sub Item&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;i class=&quot;icon-coffee&quot;&gt;&lt;/i&gt; Sub Item&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;i class=&quot;icon-twitter&quot;&gt;&lt;/i&gt; Sub Item&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li class=&quot;divider&quot;&gt;&lt;a href=&quot;&quot;&gt;&lt;i class=&quot;icon-trash&quot;&gt;&lt;/i&gt; li.divider&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</pre>
+	</div>
+	
+	<div id="menu-vertical-right" class="tab-content">
+<pre>
+&lt;!-- Menu Vertical Right --&gt;
+&lt;ul class=&quot;menu vertical right&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 3&lt;/a&gt;
+	&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;&quot;&gt;Sub Item&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;current&quot;&gt;&lt;a href=&quot;&quot;&gt;Sub Item&lt;/a&gt;
+		&lt;ul&gt;
+		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Sub Item&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Sub Item&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Sub Item&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;&quot;&gt;Sub Item&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;&quot;&gt;Sub Item&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/pre&gt;
+	</div>

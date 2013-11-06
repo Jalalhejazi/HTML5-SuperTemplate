@@ -1,0 +1,114 @@
+
+<!-- ===================================== 
+	GRIDS/COLUMNS 
+===================================== -->
+<style type="text/css">
+#grids-example [class*="col_"]{
+padding:10px;
+}
+</style>
+
+<h3 id="columns">{{title}}</h3>
+<ul class="tabs">
+<li><a href="#grids-example">Example</a></li>
+<li><a href="#grids-html">HTML</a></li>
+</ul>
+
+	<div id="grids-example" class="tab-content">
+	<h4>Responsive & Flexible Grid</h4>
+	<p>Responsive functionality is optional. Only use <code>.grid</code> & <code>.grid.flex</code> if you 
+	want a responsive grid. Resize your browser to see it in action.</p>
+	<div class="col_4"><p>Responsive Grid:<br /><code>&lt;div class=&quot;grid&quot;&gt;</code></p></div>
+	<div class="col_4"><p>Flexible Responsive Grid:<br /><code>&lt;div class=&quot;grid flex&quot;&gt;</code></p></div>
+	<div class="col_4"><p>Grid Helper Classes:<br />
+	<code>.show-desktop</code>
+	<code>.hide-desktop</code>
+	<code>.show-tablet</code>
+	<code>.hide-tablet</code>
+	<code>.show-phone</code>
+	<code>.hide-phone</code>
+	</p></div>
+	<div class="col_12">All columns automatically have the class <code>.column</code>. Apply padding and borders directly to columns 
+	<br /><code>.column{border:1px solid red;padding:10px;}</code> </div>
+	<div class="clear"></div>
+	
+	<div class="col_12 visible">col_12</div>
+	<div class="col_1 visible">col_1</div><div class="col_11 visible">col_11</div>
+	<div class="col_2 visible">col_2</div><div class="col_10 visible">col_10</div>
+	<div class="col_3 visible">col_3</div><div class="col_9 visible">col_9</div>
+	<div class="col_4 visible">col_4</div><div class="col_8 visible">col_8</div>
+	<div class="col_5 visible">col_5</div><div class="col_7 visible">col_7</div>
+	<div class="col_6 visible">col_6</div><div class="col_6 visible">col_6</div>
+	<div class="col_7 visible">col_7</div><div class="col_5 visible">col_5</div>
+	<div class="col_8 visible">col_8</div><div class="col_4 visible">col_4</div>
+	<div class="col_9 visible">col_9</div><div class="col_3 visible">col_3</div>
+	<div class="col_10 visible">col_10</div><div class="col_2 visible">col_2</div>
+	<div class="col_11 visible">col_11</div><div class="col_1 visible">col_1</div>
+	<div class="col_12 visible">col_12</div>
+	
+	<!-- FOURTHS -->
+	<div class="col_3 visible">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+	nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</div>
+	<div class="col_3 visible">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+	nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</div>
+	<div class="col_3 visible">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+	nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</div>
+	<div class="col_3 visible">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+	nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</div>
+	
+	<!-- THIRDS -->
+	<div class="col_4 visible">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+	nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</div>
+	<div class="col_4 visible">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+	nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</div>
+	<div class="col_4 visible">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+	nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</div>
+	
+	<!-- HALF & HALF -->
+	<div class="col_6 visible">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+	nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</div>
+	<div class="col_6 visible">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+	nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</div>
+	</div>
+	
+	<div id="grids-html" class="tab-content">
+<pre>
+&lt;!-- Columns/Grid --&gt;
+&lt;div class=&quot;col_12&quot;&gt;col_12&lt;/div&gt;
+&lt;div class=&quot;col_1&quot;&gt;col_1&lt;/div&gt;&lt;div class=&quot;col_11&quot;&gt;col_11&lt;/div&gt;
+&lt;div class=&quot;col_2&quot;&gt;col_2&lt;/div&gt;&lt;div class=&quot;col_10&quot;&gt;col_10&lt;/div&gt;
+&lt;div class=&quot;col_3&quot;&gt;col_3&lt;/div&gt;&lt;div class=&quot;col_9&quot;&gt;col_9&lt;/div&gt;
+&lt;div class=&quot;col_4&quot;&gt;col_4&lt;/div&gt;&lt;div class=&quot;col_8&quot;&gt;col_8&lt;/div&gt;
+&lt;div class=&quot;col_5&quot;&gt;col_5&lt;/div&gt;&lt;div class=&quot;col_7&quot;&gt;col_7&lt;/div&gt;
+&lt;div class=&quot;col_6&quot;&gt;col_6&lt;/div&gt;&lt;div class=&quot;col_6&quot;&gt;col_6&lt;/div&gt;
+&lt;div class=&quot;col_7&quot;&gt;col_7&lt;/div&gt;&lt;div class=&quot;col_5&quot;&gt;col_5&lt;/div&gt;
+&lt;div class=&quot;col_8&quot;&gt;col_8&lt;/div&gt;&lt;div class=&quot;col_4&quot;&gt;col_4&lt;/div&gt;
+&lt;div class=&quot;col_9&quot;&gt;col_9&lt;/div&gt;&lt;div class=&quot;col_3&quot;&gt;col_3&lt;/div&gt;
+&lt;div class=&quot;col_10&quot;&gt;col_10&lt;/div&gt;&lt;div class=&quot;col_2&quot;&gt;col_2&lt;/div&gt;
+&lt;div class=&quot;col_11&quot;&gt;col_11&lt;/div&gt;&lt;div class=&quot;col_1&quot;&gt;col_1&lt;/div&gt;
+&lt;div class=&quot;col_12&quot;&gt;col_12&lt;/div&gt;
+
+&lt;!-- FOURTHS --&gt;
+&lt;div class=&quot;col_3&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.&lt;/div&gt;
+&lt;div class=&quot;col_3&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.&lt;/div&gt;
+&lt;div class=&quot;col_3&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.&lt;/div&gt;
+&lt;div class=&quot;col_3&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.&lt;/div&gt;
+
+&lt;!-- THIRDS --&gt;
+&lt;div class=&quot;col_4&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.&lt;/div&gt;
+&lt;div class=&quot;col_4&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.&lt;/div&gt;
+&lt;div class=&quot;col_4&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.&lt;/div&gt;
+
+&lt;!-- HALF &amp; HALF --&gt;
+&lt;div class=&quot;col_6&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.&lt;/div&gt;
+&lt;div class=&quot;col_6&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.&lt;/div&gt;</pre>
+	</div>

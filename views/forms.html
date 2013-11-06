@@ -1,0 +1,211 @@
+<!-- ===================================== 
+	FORMS 
+===================================== -->
+<h3 id="forms">{{title}}</h3>
+<ul class="tabs">
+<li><a href="#form-example">Example</a></li>
+<li><a href="#form-textfield">Textfield</a></li>
+<li><a href="#form-select">Select</a></li>
+<li><a href="#form-checkbox">Checkbox</a></li>
+<li><a href="#form-radio">Radio</a></li>
+<li><a href="#form-fieldset">Fieldset</a></li>
+<li><a href="#form-textarea">Textarea</a></li>
+<li><a href="#form-notices">Notices</a></li>
+</ul>
+
+	<div id="form-example" class="tab-content">
+	<h4>Form.vertical</h4>
+	<form class="vertical"><div class="col_4">
+	<label for="text1">Text Field</label>
+	<input id="text1" type="text" />
+	
+	<label for="text2">Placeholder</label>
+	<input id="text2" type="text" placeholder="Placeholder Text" />
+	
+	<label for="text3" class="disabled">Disabled Field</label>
+	<input id="text3" type="text" disabled="disabled" />
+	
+	<label for="text4">Label with Right Hint <span class="right">A-Z, 0-9</span></label>
+	<input id="text4" type="text" />
+	
+	<label for="text5">Label with Hint <span>A-Z, 0-9</span></label>
+	<input id="text5" type="text" />
+	
+	<label for="text6" class="error">Text Field (Error)</label>
+	<input id="text6" class="error" type="text" />
+	</div>
+	
+	<div class="col_4">
+	<label for="select1">Select Field</label>
+	<select id="select1">
+	<option value="0">-- Choose --</option>
+	<option value="1">Option 1</option>
+	<option value="2">Option 2</option>
+	<option value="3">Option 3</option>
+	</select>
+	
+	<label for="select3">Select multiple</label>
+	<select id="select3" multiple="multiple" class="fancy">
+	<option value="0">-- Choose --</option>
+	<option value="1">Option 1</option>
+	<option value="2">Option 2</option>
+	<option value="3">Option 3</option>
+	</select>
+	
+	<fieldset>
+	<legend>Checkboxes</legend>
+	<input type="checkbox" id="check1" /> <label for="check1" class="inline">Checkbox Field</label><br />
+	<input type="checkbox" id="check2" /> <label for="check2" class="inline">Checkbox Field</label><br />
+	<input type="checkbox" id="check3" /> <label for="check3" class="inline">Checkbox Field</label>
+	</fieldset>
+	
+	<fieldset>
+	<legend>Radios</legend>
+	<input type="radio" name="radio" id="radio1" /> <label for="radio1" class="inline">Option1</label><br />
+	<input type="radio" name="radio" id="radio2" /> <label for="radio2" class="inline">Option1</label><br />
+	<input type="radio" name="radio" id="radio3" /> <label for="radio3" class="inline">Option1</label>
+	</fieldset>
+	
+	<label for="file1">File Field</label>
+	<input id="file1" type="file" />
+	</div>
+	
+	<div class="col_4">
+	<div class="notice error"><i class="icon-remove-sign icon-large"></i> This is an Error Notice 
+	<a href="#close" class="icon-remove"></a></div>
+	<div class="notice warning"><i class="icon-warning-sign icon-large"></i> This is a Warning Notice 
+	<a href="#close" class="icon-remove"></a></div>
+	<div class="notice success"><i class="icon-ok icon-large"></i> This is a Success Notice 
+	<a href="#close" class="icon-remove"></a></div>
+	
+	<label for="textarea1">TextArea</label>
+	<textarea id="textarea1" placeholder="Placeholder Text"></textarea>
+	
+	<button type="submit">Submit</button>
+	</div>
+	</form>
+	<hr />
+	
+	<div class="col_12">
+	<h4>Inline Form Fields (default)</h4>
+	<form>
+	<label for="text21">Label</label>
+	<input type="text" name="text21" placeholder="Username" />
+	<input type="text" name="text22" placeholder="Password "/>
+	<select id="select22" class="fancy">
+	<option value="0">-- Choose --</option>
+	<option value="1">Option 1</option>
+	<option value="2">Option 2</option>
+	<option value="3">Option 3</option>
+	</select>&nbsp;
+	
+	<button type="button" class="small green">Button</button>
+	<input type="checkbox" name="check23" id="check23" /> <label for="check23">Checkbox Label</label>
+	</form>
+	</div>
+	<hr />
+	
+	<style type="text/css">
+	#form-sizes label{border:1px dotted #ccc;}
+	</style>
+	
+	<div id="form-sizes" class="col_12">
+	<h4>Input/Label Sizes</h4>
+	<!--label class="col_12">label.col_12</label-->
+	<!--input type="text" placeholder=".col_1" class="col_1" /><label class="col_11">label.col_11</label-->
+	<input type="text" placeholder=".col_2" class="col_2" /><label class="col_10">label.col_10</label>
+	<input type="text" placeholder=".col_3" class="col_3" /><label class="col_9">label.col_9</label>
+	<input type="text" placeholder=".col_4" class="col_4" /><label class="col_8">label.col_8</label>
+	<input type="text" placeholder=".col_5" class="col_5" /><label class="col_7">label.col_7</label>
+	<input type="text" placeholder=".col_6" class="col_6" /><label class="col_6">label.col_6</label>
+	<input type="text" placeholder=".col_7" class="col_7" /><label class="col_5">label.col_5</label>
+	<input type="text" placeholder=".col_8" class="col_8" /><label class="col_4">label.col_4</label>
+	<input type="text" placeholder=".col_9" class="col_9" /><label class="col_3">label.col_3</label>
+	<input type="text" placeholder=".col_10" class="col_10" /><label class="col_2">label.col_2</label>
+	<!--input type="text" placeholder=".col_11" class="col_11" /><label class="col_1">label.col_1</label-->
+	<!--input type="text" placeholder=".col_12" class="col_12" /-->
+	</div>
+	</div>
+	
+	<div id="form-textfield" class="tab-content">
+<pre>
+&lt;!-- Text Field --&gt;
+&lt;label for=&quot;text1&quot;&gt;Text Field&lt;/label&gt;
+&lt;input id=&quot;text1&quot; type=&quot;text&quot; /&gt;
+
+&lt;!-- Placeholder Text --&gt;
+&lt;label for=&quot;text2&quot;&gt;Placeholder&lt;/label&gt;
+&lt;input id=&quot;text2&quot; type=&quot;text&quot; placeholder=&quot;Placeholder Text&quot; /&gt;
+
+&lt;!-- Disabled Field --&gt;
+&lt;label for=&quot;text3&quot; class=&quot;disabled&quot;&gt;Disabled Field&lt;/label&gt;
+&lt;input id=&quot;text3&quot; type=&quot;text&quot; disabled=&quot;disabled&quot; /&gt;
+
+&lt;!-- Label with Right Hint --&gt;
+&lt;label for=&quot;text4&quot;&gt;Label with Right Hint &lt;span class=&quot;right&quot;&gt;A-Z, 0-9&lt;/span&gt;&lt;/label&gt;
+&lt;input id=&quot;text4&quot; type=&quot;text&quot; /&gt;
+
+&lt;!-- Label with Hint --&gt;
+&lt;label for=&quot;text5&quot;&gt;Label with Hint &lt;span&gt;A-Z, 0-9&lt;/span&gt;&lt;/label&gt;
+&lt;input id=&quot;text5&quot; type=&quot;text&quot; /&gt;
+
+&lt;!-- Text Field Error --&gt;
+&lt;label for=&quot;text6&quot; class=&quot;error&quot;&gt;Text Field (Error)&lt;/label&gt;
+&lt;input id=&quot;text6&quot; class=&quot;error&quot; type=&quot;text&quot; /&gt;</pre>
+	</div>
+	
+	<div id="form-select" class="tab-content">
+<pre>
+&lt;!-- Select --&gt;
+&lt;label for=&quot;select1&quot;&gt;Select Field&lt;/label&gt;
+&lt;select id=&quot;select1&quot;&gt;
+&lt;option value=&quot;0&quot;&gt;-- Choose --&lt;/option&gt;
+&lt;option value=&quot;1&quot;&gt;Option 1&lt;/option&gt;
+&lt;option value=&quot;2&quot;&gt;Option 2&lt;/option&gt;
+&lt;option value=&quot;3&quot;&gt;Option 3&lt;/option&gt;
+&lt;/select&gt;</pre>
+	</div>
+	
+	<div id="form-checkbox" class="tab-content">
+<pre>
+&lt;!-- Checkbox --&gt;
+&lt;input type=&quot;checkbox&quot; id=&quot;check1&quot; /&gt;
+&lt;label for=&quot;check1&quot; class=&quot;inline&quot;&gt;Checkbox Field&lt;/label&gt;</pre>
+	</div>
+	
+	<div id="form-radio" class="tab-content">
+<pre>
+&lt;!-- Radio --&gt;
+&lt;input type=&quot;radio&quot; name=&quot;radio&quot; id=&quot;radio1&quot; /&gt;
+&lt;label for=&quot;radio1&quot; class=&quot;inline&quot;&gt;Option1&lt;/label&gt;</pre>
+	</div>
+	
+	<div id="form-fieldset" class="tab-content">
+<pre>
+&lt;!-- Fieldset --&gt;
+&lt;fieldset&gt;
+&lt;legend&gt;Checkboxes&lt;/legend&gt;
+	&lt;!-- Form Fields Here --&gt;
+&lt;/fieldset&gt;</pre>
+	</div>
+	
+	<div id="form-textarea" class="tab-content">
+<pre>
+&lt;!-- Textarea --&gt;
+&lt;textarea id=&quot;textarea1&quot; placeholder=&quot;Placeholder Text&quot;&gt;&lt;/textarea&gt;</pre>
+	</div>
+	
+	<div id="form-notices" class="tab-content">
+<pre>
+&lt;!-- Error --&gt;
+&lt;div class=&quot;notice error&quot;&gt;&lt;i class=&quot;icon-remove-sign icon-large&quot;&gt;&lt;/i&gt; This is an Error Notice 
+&lt;a href=&quot;#close&quot; class=&quot;icon-remove&quot;&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;!-- Warning --&gt;
+&lt;div class=&quot;notice warning&quot;&gt;&lt;i class=&quot;icon-warning-sign icon-large&quot;&gt;&lt;/i&gt; This is a Warning Notice 
+&lt;a href=&quot;#close&quot; class=&quot;icon-remove&quot;&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;!-- Success --&gt;
+&lt;div class=&quot;notice success&quot;&gt;&lt;i class=&quot;icon-ok icon-large&quot;&gt;&lt;/i&gt; This is a Success Notice 
+&lt;a href=&quot;#close&quot; class=&quot;icon-remove&quot;&gt;&lt;/a&gt;&lt;/div&gt;</pre>
+	</div>

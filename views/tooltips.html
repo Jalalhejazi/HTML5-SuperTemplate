@@ -1,0 +1,77 @@
+
+<!-- ===================================== 
+	TOOL TIPS 
+===================================== -->
+<h3 id="tooltips">{{title}}</h3>
+<ul class="tabs">
+<li><a href="#tooltip-example">Example</a></li>
+<li><a href="#tooltip-positions">Positions</a></li>
+<li><a href="#tooltip-html">w/ HTML Content</a></li>
+</ul>
+
+	<div id="tooltip-example" class="tab-content">
+	<div class="col_4">
+	<h4>Tooltips</h4>
+	<p>Tooltips are awesome. These tooltips are designed to mimic the default browser tooltips - smart, aware of the edge of the browser window. Simple.</p>
+	<p>Hover over the examples on the right to preview.</p>
+	<p>Use:<br />
+	<code>class="tooltip"</code> + <br />
+	<code class="tooltip" title="my tooltip content">title="my tooltip content"</code></p>
+	</div>
+	
+	<div class="col_4">
+	<h4>Tooltip Positions</h4>
+	<ul>
+	<li><code class="tooltip" title="This is a default (top) tooltip">.tooltip</code> (default)</li>
+	<li><code class="tooltip-top" title="This is a Top tooltip">.tooltip-top</code></li>
+	<li><code class="tooltip-right" title="This is a Right tooltip">.tooltip-right</code></li>
+	<li><code class="tooltip-left" title="This is a Left tooltip">.tooltip-left</code></li>
+	<li><code class="tooltip-bottom" title="This is a Bottom tooltip">.tooltip-bottom</code></li>
+	</ul>
+	</div>
+	
+	<div class="col_4">
+	<h4>Tooltips with HTML Content</h4>
+	<code>.tooltip</code> + <code>data-content="#ID"</code>
+	<hr />
+	<button class="tooltip medium orange pill" data-content="#tooltipcontentID">Hover Over Me</button>&nbsp;
+	<button class="tooltip medium blue pill" data-content="#tooltipcontentID" data-action="click">Click Me</button>
+	<div class="tooltip-content" id="tooltipcontentID"><h5>HTML Content</h5>
+	<img src="http://placehold.it/180x150/4D99E0/ffffff.png&text=180x150" width="180" height="150" />
+	<p>This is more HTML content. You can place any HTML in this tooltip.</p></div>
+	</div>
+	</div>
+	
+	<div id="tooltip-positions" class="tab-content">
+<pre>
+&lt;!-- Tooltip Default (top) --&gt;
+&lt;span class=&quot;tooltip&quot; title=&quot;This is a default (top) tooltip&quot;&gt;.tooltip&lt;/span&gt;
+
+&lt;!-- Tooltip Top --&gt;
+&lt;span class=&quot;tooltip-top&quot; title=&quot;This is a Top tooltip&quot;&gt;.tooltip-top&lt;/span&gt;
+
+&lt;!-- Tooltip Right --&gt;
+&lt;span class=&quot;tooltip-right&quot; title=&quot;This is a Right tooltip&quot;&gt;.tooltip-right&lt;/span&gt;
+
+&lt;!-- Tooltip Left --&gt;
+&lt;span class=&quot;tooltip-left&quot; title=&quot;This is a Left tooltip&quot;&gt;.tooltip-left&lt;/span&gt;
+
+&lt;!-- Tooltip Bottom --&gt;
+&lt;span class=&quot;tooltip-bottom&quot; title=&quot;This is a Bottom tooltip&quot;&gt;.tooltip-bottom&lt;/span&gt;
+</pre>
+	</div>
+	
+	<div id="tooltip-html" class="tab-content">
+<pre>
+&lt;!-- Hover Action --&gt;
+&lt;button class=&quot;tooltip medium orange pill&quot; data-content=&quot;#tooltipcontentID&quot;&gt;Hover Over Me&lt;/button&gt;
+
+&lt;!-- Click Action --&gt;
+&lt;button class=&quot;tooltip medium blue pill&quot; data-content=&quot;#tooltipcontentID&quot; data-action=&quot;click&quot;&gt;Click Me&lt;/button&gt;
+
+&lt;!-- Tooltip Content --&gt;
+&lt;div class=&quot;tooltip-content&quot; id=&quot;tooltipcontentID&quot;&gt;&lt;h5&gt;HTML Content&lt;/h5&gt;
+&lt;img src=&quot;http://placehold.it/180x150/4D99E0/ffffff.png&amp;text=180x150&quot; width=&quot;180&quot; height=&quot;150&quot; /&gt;
+&lt;p&gt;This is more HTML content. You can place any HTML in this tooltip.&lt;/p&gt;&lt;/div&gt;
+</pre>
+	</div>

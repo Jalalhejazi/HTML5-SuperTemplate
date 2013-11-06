@@ -1,0 +1,25 @@
+{
+  "name": "html5-supertemplate",
+  "version": "0.1.1",
+  "description": "using HTML5-SuperTemplate for layout and handelbarsjs for templates",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~3.4.3",
+    "hbs": "~2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jalalhejazi/HTML5-SuperTemplate"
+  },
+  "author": "Jalal Hejazi",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "2685a7702502e6fb327aba7a4797d3dfaf6e39f9",
+  "keywords": [
+    "HTML5"
+  ]
+}
