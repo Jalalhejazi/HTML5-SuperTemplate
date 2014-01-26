@@ -21,7 +21,7 @@ app.get('/about', function(req, res) {
     });
 });
 
-app.get('/instructions1', function(req, res) {
+app.get('/instructions', function(req, res) {
     res.render('instructions', {
         title: "Instructions"
     });
