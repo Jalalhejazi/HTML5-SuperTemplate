@@ -1,0 +1,28 @@
+{
+  "name": "HTML5-SuperTemplate",
+  "version": "0.1.2",
+  "homepage": "https://github.com/Jalalhejazi/HTML5-SuperTemplate",
+  "authors": [
+    "Jalal Hejazi <Jalal.Hejazi@gmail.com>"
+  ],
+  "description": "HTML5 Responsive Design made by Jalal Hejazi 2014 as Template for any RWD WebApps",
+  "main": "app.js",
+  "keywords": [
+    "Responsive",
+    "Web",
+    "Design",
+    "RWD",
+    "Layout",
+    "nodejs",
+    "RWD",
+    "Templates"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

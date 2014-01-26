@@ -1,5 +1,5 @@
 /*
-	HTML5 SuperTemplate by Jalal Hejazi
+	HTML5 SuperTemplate by Jalal Hejazi 2014 
 	SuperTemplate.js
 */
 
@@ -632,7 +632,8 @@ jQuery(document).ready(function($) {
         }
         if (!l && !e.is(":hidden"))
             if (l = !0, c && !1 === c.onCleanup(k, r, c)) l = !1;
-            else if (L(), a(C.add(y).add(z)).hide(), a(m.add(v)).unbind(), a(window).unbind("resize.fb scroll.fb"),
+            else
+        if (L(), a(C.add(y).add(z)).hide(), a(m.add(v)).unbind(), a(window).unbind("resize.fb scroll.fb"),
             a(document).unbind("keydown.fb"), m.find("iframe").attr("src", K && /^https/i.test(window.location.href || "") ? "javascript:void(false)" : "about:blank"), "inside" !== c.titlePosition && j.empty(), e.stop(), "elastic" == c.transitionOut) {
             t = R();
             var h = e.position();
@@ -1280,7 +1281,8 @@ jQuery(document).ready(function($) {
                     var t = 1;
                     if ("horizontal" == o.settings.mode)
                         if (o.viewport.width() < o.minThreshold) t = o.settings.minSlides;
-                        else if (o.viewport.width() > o.maxThreshold) t = o.settings.maxSlides;
+                        else
+                    if (o.viewport.width() > o.maxThreshold) t = o.settings.maxSlides;
                     else {
                         var e = o.children.first().width();
                         t = Math.floor(o.viewport.width() / e)
@@ -1488,7 +1490,8 @@ jQuery(document).ready(function($) {
                             } else {
                                 var l = o.children.length - o.settings.minSlides;
                                 s = o.children.eq(l).position()
-                            } else if (o.carousel && o.active.last && "prev" == i) {
+                            } else
+                        if (o.carousel && o.active.last && "prev" == i) {
                             var d = 1 == o.settings.moveSlides ? o.settings.maxSlides - p() : (v() - 1) * p() - (o.children.length - o.settings.maxSlides),
                                 a = r.children(".bx-clone").eq(d);
                             s = a.position()
